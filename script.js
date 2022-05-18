@@ -64,7 +64,6 @@ function generatePassword() {
     // else tell user entry was invalid
   } else {
     alert("Invalid entry. Please try again.");
-    break;
   }
 
   return password;
