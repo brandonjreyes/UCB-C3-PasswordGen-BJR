@@ -54,6 +54,7 @@ function generatePassword() {
     // if no selections were made, tell user entries were invalid
     if (characters.length === 0) {
       alert("No characters selected. Please try again.")
+      return null;
     }
 
     // add a random character to the blank password one at a time until the desired length is achieved
